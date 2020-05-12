@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html,body{
-background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-image: url('../dashboard/img/dashboard.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -20,7 +20,7 @@ height: 304px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+background-color: rgba(0,0,0,0.7) !important;
 }
 
 .social_icon span{

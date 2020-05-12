@@ -17,6 +17,9 @@
 
     <!--Custom styles-->
     <link rel="stylesheet" type="text/css" href="../css/login.css">
+
+      <!-- ICONE -->
+  <link rel="shortcut icon" href="../dashboard/img/favicon.webp" />
 </head>
 
 <body>
