@@ -5,7 +5,7 @@
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../dashboard/index.php">
       <div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-fw fa-tachometer-alt"></i>
       </div>
@@ -25,7 +25,7 @@
     </div>
         <!-- Nav Item - Home -->
         <li class="nav-item">
-      <a class="nav-link" href="home.php">
+      <a class="nav-link" href="home-banner/home.php">
         <i class="fas fa-fw fa-table"></i>
         <span>Home</span></a>
     </li>
@@ -38,7 +38,7 @@
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">Custom Components:</h6>
-          <a class="collapse-item" href="cards.php">Cards</a>
+          <a class="collapse-item" href="cards/cards.php">Cards</a>
         </div>
       </div>
     </li>
@@ -65,14 +65,14 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-      <a class="nav-link" href="charts.php">
+      <a class="nav-link" href="charts/charts.php">
         <i class="fas fa-fw fa-chart-area"></i>
         <span>Charts</span></a>
     </li>
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-      <a class="nav-link" href="tables.php">
+      <a class="nav-link" href="tables/tables.php">
         <i class="fas fa-fw fa-table"></i>
         <span>Tables</span></a>
     </li>

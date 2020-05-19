@@ -5,7 +5,7 @@
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.php">
       <div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-fw fa-tachometer-alt"></i>
       </div>
@@ -57,8 +57,8 @@
       <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
           <h6 class="collapse-header">Login Screens:</h6>
-          <a class="collapse-item" href="login.php">Login</a>
-          <a class="collapse-item" href="register.php">Register</a>
+          <a class="collapse-item" href="../login.php">Login</a>
+          <a class="collapse-item" href="../register.php">Register</a>
         </div>
       </div>
     </li>

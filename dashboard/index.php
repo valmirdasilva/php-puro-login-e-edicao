@@ -23,7 +23,7 @@
 
 <body id="page-top">
 
-<?php include('include/nav-home.php'); ?>
+<?php include('include/nav.php'); ?>
 
 
         <!-- Begin Page Content -->
