@@ -1,6 +1,6 @@
 <?php session_start();
 include_once('../conexao.php');
- ?>
+?>
 <html lang="pt-br">
 
 <head>
@@ -44,15 +44,15 @@ include_once('../conexao.php');
 
           <div class="card-body">
             <div class="chart-area">
-            
+
               <form class="user" action="cadastro_novo.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                   <h6>Titulo</h6>
-                  <input type="text" name="titulo" class="form-control"  placeholder="Digite o titulo" required>
+                  <input type="text" name="titulo" class="form-control" placeholder="Digite o titulo" required>
                 </div>
                 <div class="form-group">
                   <h6>Descrição</h6>
-                  <input type="text" name="descricao" class="form-control"  placeholder="Digite a descrição" required>
+                  <input type="text" name="descricao" class="form-control" placeholder="Digite a descrição" required>
                 </div>
                 <div class="form-group">
                   <h6>Texto</h6>
@@ -60,58 +60,18 @@ include_once('../conexao.php');
                 </div>
                 <div class="form-group">
                   <h6>Fonte</h6>
-                  <input type="text" name="fonte" class="form-control"  placeholder="Digite a fonte" required>
+                  <input type="text" name="fonte" class="form-control" placeholder="Digite a fonte" required>
                 </div>
-                  <input type="submit" value="cadastrar">
+                <input type="submit" class="btn" value="cadastrar">
               </form>
             </div>
           </div>
         </div>
       </div>
       <!-- Begin Page Content -->
-   
-          <!-- Area Chart -->
-          <div class="col-xl-12 col-lg-12">
-        <div class="card shadow mb-4">
-          <!-- Card Header - Dropdown -->
-          <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold">Notícia existente</h6>
-          
-          </div>
-          <?php
-           $result_noticia = "SELECT * FROM noticia WHERE id "; 
-           $resultado_noticia = mysqli_query($conexao, $result_noticia);
-           $row_noticia = mysqli_fetch_assoc($resultado_noticia);  
-            ?>
-          <div class="card-body">
-            <div class="chart-area">
 
-              <form class="user" action="edita_noticia.php" method="POST" enctype="multipart/form-data">
-              <input type="hidden" name="id" value="<?php echo $row_noticia['id']; ?>">
-                <div class="form-group">
-                  <h6>Titulo</h6>
-                  <input type="text" name="titulo" class="form-control" value="<?php echo $row_noticia['titulo']; ?>">
-                </div>
-                <div class="form-group">
-                  <h6>Descrição</h6>
-                  <input type="text" name="descricao" class="form-control" value="<?php echo $row_noticia['descricao']; ?>">
-                </div>
-                <div class="form-group">
-                  <h6>Texto</h6>
-                  <textarea type="text" name="texto" class="form-control" rows="6"><?php echo $row_noticia['texto']; ?></textarea>
-                </div>
-                <div class="form-group">
-                  <h6>Fonte</h6>
-                  <input type="text" name="fonte" class="form-control" value="<?php echo $row_noticia['fonte']; ?>">
-                </div>
-                  <input type="submit" value="cadastrar">
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <!-- Begin Page Content -->
+    </div>
+    <!-- Begin Page Content -->
     <!-- End of Content Wrapper -->
 
     <?php include('../include/footer.php'); ?>

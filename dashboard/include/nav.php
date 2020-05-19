@@ -23,11 +23,18 @@
     <div class="sidebar-heading">
       Interface
     </div>
-        <!-- Nav Item - Home -->
-        <li class="nav-item">
-      <a class="nav-link" href="home-banner/home.php">
-        <i class="fas fa-fw fa-table"></i>
-        <span>Home</span></a>
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="true" aria-controls="collapseTwo1">
+        <i class="fas fa-fw fa-cog"></i>
+        <span>Noticia</span>
+      </a>
+      <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+          <a class="collapse-item" href="noticia/cadastro.php">Cadastrar</a>
+          <a class="collapse-item" href="noticia/lista-noticia.php">Noticias cadastradas</a>
+        </div>
+      </div>
     </li>
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">

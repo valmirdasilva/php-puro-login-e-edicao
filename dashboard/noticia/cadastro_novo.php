@@ -13,10 +13,10 @@ $resultado_noticia = mysqli_query ($conexao, $result_noticia);
 
 if(mysqli_affected_rows ($conexao)) {
     $_SESSION['msg_edita'] = " <p style='color:green'> Noticia editada </p>";
-    header ("Location: home.php?=$id");
+    header ("Location: cadastro.php?=$id");
 }else{
     $_SESSION['msg_edita'] = " <p style='color:red'> Noticia não editada </p>";
-    header ("Location: home.php?=$id");
+    header ("Location: cadastro.php?=$id");
 }
 
 ?>

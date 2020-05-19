@@ -14,10 +14,8 @@ $resultado_noticia = mysqli_query ($conexao, $result_noticia);
 
 if(mysqli_insert_id ($conexao)) {
     $_SESSION['msg'] = " <p style='color:green'> Noticia cadastrada </p>";
-    header ("Location: home.php");
+    header ("Location: lista-noticia.php");
 }else{
     $_SESSION['msg'] = " <p style='color:red'> Noticia não cadastrada </p>";
-    header ("Location: home.php");
+    header ("Location: lista-noticia.php");
 }
-
-?>
